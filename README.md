@@ -13,7 +13,7 @@
 
 ## Steps
 
-1. Create a cluster: `eksctl create cluster --name my-cluster --region us-west-1 --fargate`
+1. Create a cluster: `eksctl create cluster --name my-cluster`
 2. Deploy app: `kubectl apply -f deployment.yml`
 3. Apply service: `kubectl apply -f service.yml`
 4. List resources: `kubectl get all`
